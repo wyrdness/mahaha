@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/mahaha",
     "maintainers": [
       {
@@ -16,72 +16,111 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "mahaha",
     "name": "Mahaha",
-    "aliases": [],
-    "category": "CRYPTID",
-    "subcategory": "Unknown",
+    "aliases": [
+      { "name": "Mahaha", "language": "Inuktitut", "region": "Inuit Nunangat (Canadian Arctic)" }
+    ],
+    "category": "DEMON_ANGEL",
+    "subcategory": "Inuit malevolent spirit / tickle-demon",
     "tags": [
-      "folklore",
-      "mythology"
+      "inuit-folklore",
+      "arctic",
+      "demon",
+      "tickling",
+      "cautionary-tale",
+      "indigenous-tradition",
+      "winter-spirit"
     ],
     "status": "documented",
     "description": {
-      "summary": "The Mahaha is a terrifying demon from Inuit mythology, described as a skeletal, blue-skinned humanoid with icy claws and a permanent, maniacal grin frozen onto its face.",
-      "full": "The Mahaha is a terrifying demon from Inuit mythology, described as a skeletal, blue-skinned humanoid with icy claws and a permanent, maniacal grin frozen onto its face. According to legend, the Mahaha inhabits the coldest regions of the Arctic—ice caves, frozen tundra, and desolate wilderness—where it stalks lone travelers. Its method of killing is uniquely horrifying: the Mahaha tickles its victims to death with its long, frozen fingers, all while laughing maniacally. The victim dies from a combination of hypothermia, exhaustion from involuntary laughter, and sheer terror."
+      "summary": "The Mahaha is a malevolent spirit of Inuit oral tradition: a thin, blue-skinned, perpetually grinning demon of the Arctic that ambushes lone travellers and tickles them to death with long, sharp-clawed fingers, leaving its victims with a frozen smile.",
+      "full": "The Mahaha is a malevolent spirit in Inuit oral tradition, associated particularly with the icy expanses of the Canadian Arctic. Stories describe it as a gaunt, blue-skinned, semi-skeletal humanoid with stringy black hair, white pupil-less eyes, a permanent maniacal grin, and long, bony fingers tipped with sharp icy claws. The Mahaha hunts lone travellers in remote and exposed parts of the tundra and ice; rather than killing with violence it tickles its victims to death, the combination of involuntary laughter, exposure, and terror leaving them dead with a frozen grin matching its own. According to Inuit oral tradition, the Mahaha can be defeated by tricking it into bending over a stream or fishing hole; the victim then pushes it into the water, after which the spirit cannot return. The Mahaha functions in Inuit storytelling as a cautionary figure warning against straying alone from camp and emphasising community and shared survival in an unforgiving environment. The figure is documented in 20th-century compilations of Inuit oral traditions and in popular cryptid- and folklore-aimed sources; it does not appear to be tied to a single historical incident and is not part of the cryptozoological literature."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Inuktitut name preserved in Inuit oral tradition; not analysed in the secondary sources consulted.",
+      "meaning": "Not glossed in the available sources.",
+      "first_use": "Documented in 20th-century English-language compilations of Inuit oral tradition; the underlying tradition is older."
     }
   },
+
   "classification": {
     "taxonomy": {
-      "category": "CRYPTID",
-      "type": "Unknown",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "DEMON_ANGEL",
+      "type": "Malevolent spirit",
+      "subtype": "Tickle-demon / cold-demon",
+      "variant": "Inuit / Canadian Arctic"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "qallupilluit", "name": "Qallupilluit", "relationship": "similar", "description": "Inuit water-spirits that snatch unattended children from the ice" },
+      { "id": "ijiraq", "name": "Ijiraq", "relationship": "similar", "description": "Inuit shapeshifting beings that lead travellers astray" },
+      { "id": "tariaksuq", "name": "Tariaksuq", "relationship": "similar", "description": "Inuit shadow-people glimpsed only in peripheral vision" },
+      { "id": "tupilaq", "name": "Tupilaq", "relationship": "similar", "description": "Inuit shamanically created malevolent entity" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "coloration": ["pale blue", "frost-coloured"],
+      "features": [
+        { "feature": "Blue, frostbitten skin", "description": "Pale blue or frost-coloured skin reflecting the Arctic cold", "frequency": "always" },
+        { "feature": "Skeletal, gaunt build", "description": "Thin, sinewy, semi-skeletal body", "frequency": "always" },
+        { "feature": "Permanent manic grin", "description": "Frozen, unsettling grin that mirrors the death-rictus left on its victims", "frequency": "always" },
+        { "feature": "Long bony fingers with icy claws", "description": "Long, sharp, frost-tipped claws used for tickling rather than slashing", "frequency": "always" },
+        { "feature": "Stringy black hair", "description": "Long, stringy dark hair framing the face", "frequency": "common" },
+        { "feature": "White pupil-less eyes", "description": "Eyes white and pupil-less in many tellings", "frequency": "common" }
+      ],
+      "morphology": "Anthropomorphic Arctic spirit with human silhouette but emaciated and corpse-like proportions, optimised aesthetically as a horror figure rather than as a plausible animal."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Tickling to death", "description": "Pins victims and tickles them with long icy-clawed fingers, killing through a combination of laughter-induced exhaustion, exposure, and fear", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Frozen-rictus mark", "description": "Victims are left with a frozen smile mirroring the Mahaha's own grin", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Cold contact", "description": "Some tellings give the Mahaha the ability to chill or freeze with its touch", "frequency": "common", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "aggressive",
+      "social_structure": "solitary",
+      "habitat_preference": ["sea ice", "tundra", "ice caves", "isolated camps", "wind-blown wastes"],
+      "patterns": [
+        "Targets lone travellers separated from their community",
+        "Stalks rather than ambushes en masse",
+        "Defeated by being tricked into bending over a stream and pushed in"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Mahaha stories are part of Inuit oral tradition across the Canadian Arctic (Inuit Nunangat); they are best documented in popular folklore writing rather than in tightly-localised regional accounts.",
+      "continents": ["North America"],
+      "countries": ["Canada"],
+      "regions": ["Canadian Arctic", "Inuit Nunangat", "Nunavut"]
     },
     "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "Pre-modern",
         "circa": true,
-        "source": "Traditional folklore"
+        "source": "Inuit oral tradition of the Canadian Arctic"
       }
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Inuit oral tradition of the Canadian Arctic, in which spirit-figures such as the Mahaha, Qallupilluit, Ijiraq, and Tariaksuq encode practical lessons about survival in extreme cold and the necessity of remaining with one's community.",
+      "earliest_accounts": "Underlying tradition is pre-modern; English-language documentation is found in 20th-century compilations of Inuit folklore and in subsequent popular works.",
+      "folklore_connections": "Connected to the wider class of Inuit spirit-beings that punish solitary or careless behaviour on the ice, and structurally to global tickle-demon and cold-demon traditions."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1900-01-01", "event": "Inuit oral traditions of the Mahaha are recorded by 20th-century ethnographers and storytellers", "significance": "Cultural baseline of the documented figure", "source": "Inuit oral tradition (compiled at inuitmyths.com and Mythlok)" }
+    ],
+    "modern_era": "The Mahaha persists in Inuit storytelling and has become a recurring entry in popular folklore and cryptid websites, often used as a memorable example of Arctic Indigenous oral tradition. Inuit cultural organisations have begun reclaiming such figures within community-led storytelling and education projects."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,35 +131,85 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "mahaha-evidence-oral-tradition",
+        "type": "oral tradition",
+        "name": "Inuit Mahaha oral tradition",
+        "description": "Mahaha appears in Inuit oral tradition of the Canadian Arctic, as compiled in 20th- and 21st-century English-language sources on Inuit folklore.",
+        "status": "unverified",
+        "analysis": "Treated as cultural and intangible heritage rather than as evidence of a literal entity.",
+        "source": "Inuit Myths (inuitmyths.com); Mythlok, 'Mahaha: The Laughing Demon'"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Inuit malevolent spirit",
+        "description": "Within Inuit oral tradition the Mahaha is treated as a real malevolent spirit of the Arctic that targets the careless, the proud, and those who stray from community.",
+        "proponents": ["Inuit oral tradition"],
+        "evidence_cited": ["Continuous oral transmission", "Recurring narrative function in cautionary tales"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Cautionary survival narrative",
+        "description": "The Mahaha is best understood as a folklore device encoding hard-won Arctic survival wisdom — do not stray alone, mind the cold, watch for sudden death from exposure — in a memorable, frightening figure.",
+        "proponents": ["Folklore commentary on Arctic Indigenous traditions"],
+        "evidence_cited": ["Tight coupling of the Mahaha with cold, isolation, and 'frozen smile' deaths consistent with hypothermia"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Inuit oral tradition of the Canadian Arctic"
+      ],
+      "stories": [
+        "The lone traveller tickled to death and left smiling",
+        "Defeating the Mahaha by tricking it into bending over a stream"
+      ],
+      "beliefs": "The Mahaha story encodes a community ethic — stay with your people, share warmth, do not boast or wander — through fear of a memorable Arctic spirit."
+    },
+    "indigenous": {
+      "cultures": ["Inuit"],
+      "significance": "The Mahaha is part of a wider Inuit spiritual and storytelling tradition that should be understood within Inuit cosmology and pedagogy rather than reduced to a 'monster' entry.",
+      "sensitivity_note": "Many widely-circulated English-language Mahaha descriptions originate in non-Inuit popular writing. Where possible, Inuit-led sources should be consulted and credited.",
+      "respect_guidelines": "Cite Inuit storytellers and cultural organisations directly; do not commercialise Inuit traditions; recognise that English-language summaries may simplify or distort the original tradition."
     },
     "popular_culture": {
-      "literature": [],
+      "literature": [
+        "Popular folklore and cryptid books referencing the Mahaha"
+      ],
       "film_tv": [],
       "games": [],
-      "other": []
+      "other": [
+        "Inuit Myths poster series featuring Mahaha alongside Ijiraq, Tariaksuq, Qallupilluit and Kukilingiattiaq/Aggainnaq"
+      ]
     }
   },
+
   "research": {
     "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "organizations": [
+      { "name": "Inuit Myths (inuitmyths.com)", "url": "https://www.inuitmyths.com/mahaha.htm", "focus": "Public-facing Inuit-mythology resource summarising the Mahaha and other Inuit beings" }
+    ],
+    "ongoing_studies": "Continued documentation and revitalisation of Inuit oral tradition by Inuit-led cultural and educational organisations."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "inuitmyths-mahaha", "type": "website", "title": "Mahaha", "publication": "Inuit Myths (inuitmyths.com)", "url": "https://www.inuitmyths.com/mahaha.htm", "accessed": "2026-05-07" },
+    { "id": "mythlok-mahaha", "type": "website", "title": "Mahaha: The Laughing Demon", "publication": "Mythlok", "url": "https://mythlok.com/mahaha/", "accessed": "2026-05-07" }
+  ]
 }
